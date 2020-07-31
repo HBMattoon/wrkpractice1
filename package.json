@@ -1,0 +1,29 @@
+{
+  "name": "wrkpractice1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"server/**\"",
+    "lint:fix": "eslint --fix \"server/**\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HBMattoon/wrkpractice1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HBMattoon/wrkpractice1/issues"
+  },
+  "homepage": "https://github.com/HBMattoon/wrkpractice1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
